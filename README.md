@@ -32,13 +32,14 @@ Ecosistema de aplicaciones con arquitectura de microservicios, desarrollado en e
 
 > El codigo de correo es 424242.
 
-**Capturas**
+<details>
+<summary><b>Capturas</b></summary>
 
-![Catálogo de productos](images/marketplace-catalogo.png)
+![Catálogo de productos](images/marketplace-perfume/marketplace-home.png)
 ![Panel de administración](images/marketplace-admin.png)
-![Analytics Dashboard](images/analytics-dashboard.png)
-![Analytics con filtro de fechas](images/analytics-filtros.png)
+![Analytics Dashboard](images/marketplace-perfume/marketplace-analytics/analytics-home.png)
 
+</details>
 ---
 
 ### 2. Plataforma de transporte tipo Uber
