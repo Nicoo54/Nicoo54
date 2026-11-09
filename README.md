@@ -54,9 +54,11 @@ Plataforma que conecta a personas que necesitan enviar paquetes con conductores 
 
 <details>
 <summary><b>Capturas y diagramas</b></summary>
-[Diagrama de contenedores](https://youtu.be/csrbMWZOqJs)
-[📄 Documentación completa (PDF)](docs/packeteer-arquitectura.pdf)
+  
+[Diagrama de contenedores](images/Packeteer/Packeteer-diagrama-componentes.png)
+[📄 Documentación completa (PDF)](docs/Packeteer/Packeteer_Documentacion.pdf)
 [🎥 Video de la demo](https://youtu.be/csrbMWZOqJs)
+
 </details>
 ---
 
