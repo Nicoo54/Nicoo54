@@ -85,20 +85,14 @@ Plataforma que conecta a personas que necesitan enviar paquetes con conductores 
 </details>
 ---
 
-### 4. Nonograma en Prolog y React
-
-Juego de nonogramas desarrollado en forma individual. La lógica de reglas corre en SWI-Prolog y la interfaz en React, comunicados mediante Pengines. Incluye función de deshacer jugadas y un sistema de pistas.
-
-**Stack:** React · SWI-Prolog · Pengines
-
-![Nonograma en juego](images/nonograma.gif)
-
 ---
 
 ## Otros proyectos académicos
 
-- **Tracker de bíceps** (equipo de 4; Python, OpenCV, MediaPipe, NumPy): seguimiento del brazo en video, cálculo del ángulo del codo y gráficos de las variables en función del tiempo. [Mi parte: ...]
-- **Gestión de un proyecto de software para una aerolínea** (en curso): plan de riesgos, WBS, métricas de seguimiento y criterios de éxito, priorización de requerimientos y planificación en sprints.
+- **Tracker de bíceps** (equipo de 4; Python, OpenCV, MediaPipe, NumPy): seguimiento del brazo en video, cálculo del ángulo del codo y gráficos de las variables en función del tiempo. [🎥 Video de la demo](https://youtu.be/kwR4GyDo3C8)
+- **Gestión de un proyecto de software para una aerolínea** (en curso): plan de riesgos, WBS, métricas de seguimiento y criterios de éxito, priorización de requerimientos y planificación en sprints. 
+- **Nonograma**: Juego de nonogramas desarrollado en forma individual. La lógica de reglas corre en SWI-Prolog y la interfaz en React, comunicados mediante Pengines. [🎥 Video de la demo](https://youtu.be/YBS6UOwpd2A)
+- **Candy Crush** (equipo de 4; Java): [qué hace en una línea]. Mi parte: [completar]. [Repo](link)
 
 <!--
 OPCIONAL: app de logística rural (sacá los comentarios para activarla)
