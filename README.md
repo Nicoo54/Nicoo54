@@ -92,13 +92,7 @@ Plataforma que conecta a personas que necesitan enviar paquetes con conductores 
 - **Tracker de bíceps** (equipo de 4; Python, OpenCV, MediaPipe, NumPy): seguimiento del brazo en video, cálculo del ángulo del codo y gráficos de las variables en función del tiempo. [🎥 Video de la demo](https://youtu.be/kwR4GyDo3C8)
 - **Gestión de un proyecto de software para una aerolínea** (en curso): plan de riesgos, WBS, métricas de seguimiento y criterios de éxito, priorización de requerimientos y planificación en sprints. 
 - **Nonograma**: Juego de nonogramas desarrollado en forma individual. La lógica de reglas corre en SWI-Prolog y la interfaz en React, comunicados mediante Pengines. [🎥 Video de la demo](https://youtu.be/YBS6UOwpd2A)
-- **Candy Crush** (equipo de 4; Java): [qué hace en una línea]. Mi parte: [completar]. [Repo](link)
-
-<!--
-OPCIONAL: app de logística rural (sacá los comentarios para activarla)
-
-- **App de gestión logística de cosecha** (individual; Flutter, Dart, SQL): prototipo offline-first, desarrollado a partir de los requerimientos de un contratista rural, para registrar cargas, calcular rindes (kg/ha) y generar reportes en Excel y PDF. No llegó a implementarse con los operarios.
--->
+- **Candy Crush** (equipo de 4; Java): [🎥 Video de la demo](https://youtu.be/OViWHFBxXzg)
 
 ---
 
