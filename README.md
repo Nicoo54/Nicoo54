@@ -42,22 +42,22 @@ Ecosistema de aplicaciones con arquitectura de microservicios, desarrollado en e
 </details>
 ---
 
-### 2. Plataforma de transporte tipo Uber
+### 2. Packeteer, plataforma de logística colaborativa
 
-Proyecto de Arquitectura y Diseño de Sistemas, en equipo de 4 personas. El foco estuvo en el diseño y la documentación de la arquitectura.
+Plataforma que conecta a personas que necesitan enviar paquetes con conductores independientes. Proyecto de Arquitectura y Diseño de Sistemas (UNS), en equipo de 5 personas. El foco estuvo en el diseño y la documentación de la arquitectura.
 
 **Mi parte**
 - Desarrollo completo del frontend, la simulación del conductor en movimiento y la navegación.
 - Participación en la documentación: modelo de dominio, requerimientos funcionales y no funcionales, diagramas de contexto, contenedores y componentes, modelo de datos, diseño de APIs y decisiones arquitectónicas (ADRs).
-
+**Decisiones clave:** monolito en capas, polling en lugar de WebSockets, PostgreSQL sin caché y procesos batch con Vercel Cron.
 **Stack:** Next.js · PostgreSQL · Prisma · Clerk · Vercel
 
-**Capturas y diagramas**
-
-![Diagrama de contexto](images/uber-contexto.png)
-![Diagrama de contenedores](images/uber-contenedores.png)
-![Pantalla de la app](images/uber-app.png)
-
+<details>
+<summary><b>Capturas y diagramas</b></summary>
+[Diagrama de contenedores](https://youtu.be/csrbMWZOqJs)
+[📄 Documentación completa (PDF)](docs/packeteer-arquitectura.pdf)
+[🎥 Video de la demo](https://youtu.be/csrbMWZOqJs)
+</details>
 ---
 
 ### 3. Nonograma en Prolog y React
@@ -67,9 +67,6 @@ Juego de nonogramas desarrollado en forma individual. La lógica de reglas corre
 **Stack:** React · SWI-Prolog · Pengines
 
 ![Nonograma en juego](images/nonograma.gif)
-
-<!-- Si la cátedra permite publicar el repo y está bien documentado, agregá: -->
-<!-- 🔗 Código: [link al repo] -->
 
 ---
 
