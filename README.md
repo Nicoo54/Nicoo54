@@ -42,7 +42,30 @@ Ecosistema de aplicaciones con arquitectura de microservicios, desarrollado en e
 </details>
 ---
 
-### 2. Packeteer, plataforma de logística colaborativa
+### 2. App de gestión logística de cosecha
+
+Aplicación móvil que digitaliza el control de la cosecha desde la cabina de la maquinaria. Reemplaza las libretas de papel, calcula la productividad automáticamente y genera reportes para los dueños de los campos. Desarrollada en forma individual a partir de los requerimientos de un contratista rural.
+
+**Cómo funciona:** el trabajo se organiza en Cliente → Campo → Lote (con sus hectáreas) → Carga (kilos, lugar de descarga, fecha y chofer). El panel resume tres indicadores: total de kilos, hectáreas y rinde (kg/ha).
+
+**Funcionalidades**
+- Carga sin conexión (offline-first) para zonas sin señal.
+- Historial filtrable por fecha, cliente, campo o camión.
+- Corrección de hectáreas y kilos, con recálculo de los rindes de toda la campaña.
+- Reportes para el cliente en Excel, por lote o por camión.
+
+**Stack:** Flutter · Dart · SQL
+
+**Desafío principal:** gestionar las cargas sin conexión y agruparlas correctamente al recuperar la señal. Fue mi primer sistema y lo más difícil del proyecto.
+
+**Estado:** prototipo funcional, no implementado con los operarios. **Próximo paso:** una web que muestre en tiempo real el avance de cada cliente.
+
+![Resumen de cargas](images/cosecha-resumen.png)
+🎥 [Video de demo](link)
+
+---
+
+### 3. Packeteer, plataforma de logística colaborativa
 
 Plataforma que conecta a personas que necesitan enviar paquetes con conductores independientes. Proyecto de Arquitectura y Diseño de Sistemas (UNS), en equipo de 5 personas. El foco estuvo en el diseño y la documentación de la arquitectura.
 
@@ -62,7 +85,7 @@ Plataforma que conecta a personas que necesitan enviar paquetes con conductores 
 </details>
 ---
 
-### 3. Nonograma en Prolog y React
+### 4. Nonograma en Prolog y React
 
 Juego de nonogramas desarrollado en forma individual. La lógica de reglas corre en SWI-Prolog y la interfaz en React, comunicados mediante Pengines. Incluye función de deshacer jugadas y un sistema de pistas.
 
