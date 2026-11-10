@@ -4,7 +4,7 @@
 
 **Estudiante de Ingeniería en Sistemas de Información · Universidad Nacional del Sur**
 
-Me interesan el análisis de datos, la automatización de procesos y el desarrollo web.
+Desarrollo aplicaciones web y móviles con foco en calidad, datos y en entender el problema que cada producto resuelve
 
 📍 Bahía Blanca, Argentina
 
