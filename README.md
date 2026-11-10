@@ -9,7 +9,7 @@ Desarrollo aplicaciones web y móviles con foco en calidad, datos y en entender 
 📍 Bahía Blanca, Argentina
 
 [![Email](https://img.shields.io/badge/Email-nicolasbernardini54@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:nicolasbernardini54@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nicolás_Bernardini-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicolas-bernardini-628b9b449/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nicolás_Bernardini-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bernardini-nicolas/)
 
 </div>
 
