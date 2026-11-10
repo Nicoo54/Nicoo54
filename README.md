@@ -60,8 +60,8 @@ Aplicación móvil que digitaliza el control de la cosecha desde la cabina de la
 
 **Estado:** prototipo funcional, no implementado con los operarios. **Próximo paso:** una web que muestre en tiempo real el avance de cada cliente.
 
-![Resumen de cargas](images/cosecha-resumen.png)
-🎥 [Video de demo](link)
+![Resumen de cargas](images/Cosecha/chosecha-reporte-excel.png)
+🎥 [Video de demo](https://youtube.com/shorts/5DGVj7XVGLY)
 
 ---
 
