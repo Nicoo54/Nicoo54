@@ -106,7 +106,7 @@ Aplicación móvil que digitaliza el control de la cosecha desde la cabina de la
 [![Video de demo](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/5DGVj7XVGLY)
 
 <details>
-<summary><b>📸 Captura</b></summary>
+<summary><b>📸 Captura del reporte generado</b></summary>
 
 <br>
 
