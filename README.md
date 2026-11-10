@@ -94,9 +94,9 @@ Plataforma que conecta a personas que necesitan enviar paquetes con conductores 
 
 ## Otros proyectos académicos
 
-- **Tracker de bíceps** (equipo de 4; Python, OpenCV, MediaPipe, NumPy): seguimiento del brazo en video, cálculo del ángulo del codo y gráficos de las variables en función del tiempo. [🎥 Video de la demo](https://youtu.be/kwR4GyDo3C8)
+- **Tracker de bíceps** (equipo de 4; Python, OpenCV, MediaPipe, NumPy): seguimiento del brazo en video, cálculo del ángulo del codo y gráficos de las variables en función del tiempo. [🎥 Video de la demo](https://youtu.be/kwR4GyDo3C8) [📄 Proyecto)](docs/Tracker%20de%20b%C3%ADceps/Proyecto%20de%20fisica%20-%20Curl%20de%20biceps.pdf)
 - **Gestión de un proyecto de software para una aerolínea** (en curso): plan de riesgos, WBS, métricas de seguimiento y criterios de éxito, priorización de requerimientos y planificación en sprints. 
-- **Nonograma**: Juego de nonogramas desarrollado en forma individual. La lógica de reglas corre en SWI-Prolog y la interfaz en React, comunicados mediante Pengines. [🎥 Video de la demo](https://youtu.be/YBS6UOwpd2A)
+- **Nonograma**: Juego de nonogramas desarrollado en forma individual. La lógica de reglas corre en SWI-Prolog y la interfaz en React, comunicados mediante Pengines. [🎥 Video de la demo](https://youtu.be/YBS6UOwpd2A) [📄 Documentación completa (PDF)](docs/Nonograma/Informe.pdf)
 - **Candy Crush** (equipo de 4; Java): [🎥 Video de la demo](https://youtu.be/OViWHFBxXzg)
 
 ---
