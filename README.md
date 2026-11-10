@@ -97,7 +97,7 @@ Aplicación móvil que digitaliza el control de la cosecha desde la cabina de la
 
 ### 3. Packeteer, plataforma de logística colaborativa
 
-Plataforma que conecta a personas que necesitan enviar paquetes con conductores independientes. Proyecto de Arquitectura y Diseño de Sistemas (UNS), en equipo de 5 personas, con foco en el diseño y la documentación de la arquitectura.
+Plataforma que conecta a personas que necesitan enviar paquetes con conductores independientes. Proyecto de Arquitectura y Diseño de Sistemas (UNS), en equipo de 4 personas, con foco en el diseño y la documentación de la arquitectura.
 
 **Stack:** Next.js · TypeScript · PostgreSQL · Prisma · Clerk · Vercel
 
