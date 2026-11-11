@@ -36,7 +36,7 @@ Ecosistema de aplicaciones con arquitectura de microservicios, desarrollado en u
 **Enlaces**
 
 [![Demo Analytics Dashboard](https://img.shields.io/badge/Demo-Analytics_Dashboard-2ea44f?style=flat-square&logo=vercel&logoColor=white)](https://perfume-libre-analytics.vercel.app/general)
-[![Demo Buyer App](https://img.shields.io/badge/Demo-Buyer_App-2ea44f?style=flat-square&logo=vercel&logoColor=white)](https://REEMPLAZAR-POR-DOMINIO-PRODUCCION.vercel.app/)
+[![Demo Buyer App](https://img.shields.io/badge/Demo-Buyer_App-2ea44f?style=flat-square&logo=vercel&logoColor=white)](https://perfume-libre-buyer.vercel.app/)
 <!-- TODO: reemplazar link de Buyer App por el de producción (sin git-develop) y descomentar video cuando esté -->
 <!-- [![Video](https://img.shields.io/badge/Video-2_min-FF0000?style=flat-square&logo=youtube&logoColor=white)](LINK) -->
 
