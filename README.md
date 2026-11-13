@@ -55,7 +55,7 @@ Ecosistema de aplicaciones con arquitectura de microservicios, desarrollado en u
 
 <p align="center">
   <img src="images/marketplace-perfume/marketplace-home.png" alt="Catálogo de productos" width="32%">
-  <img src="images/marketplace-admin.png" alt="Panel de administración" width="32%">
+  <img src="images/marketplace-perfume/marketplace-admin-panel.png" alt="Panel de administración" width="32%">
   <img src="images/marketplace-perfume/marketplace-analytics/analytics-home.png" alt="Analytics Dashboard" width="32%">
 </p>
 
