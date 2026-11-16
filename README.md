@@ -65,7 +65,58 @@ Ecosistema de aplicaciones con arquitectura de microservicios, desarrollado en u
 
 ---
 
-### 2. App de gestión logística de cosecha
+### 2. Pipeline de datos y tablero de ventas (Power BI)
+
+Proyecto personal que arma el circuito completo del dato sobre el esquema del [marketplace de perfumes](#1-marketplace-de-perfumes--analytics-dashboard): extrae órdenes, ítems y envíos de PostgreSQL, los limpia y modela, y los presenta en un tablero de Power BI de cuatro páginas con un control de calidad de datos. Trabaja con datos simulados, generados con un script de sembrado.
+
+**Stack:** PostgreSQL (Neon) · SQL · Power Query · Power BI · DAX
+
+**Qué contiene el tablero**
+
+| Página | Qué muestra |
+|---|---|
+| **Resumen** | Comisión total, órdenes pagadas, ticket promedio, tasas de cancelación y recompra, evolución mensual y distribución por estado. |
+| **Logística y geografía** | Órdenes por provincia y por operador, costo de envío por operador y servicio, ciclo de entrega y tasa de entregas a tiempo. |
+| **Productos** | Comisión por marca y por vendedor, unidades vendidas por favorito de cada producto y relación entre precio y favoritos. |
+| **Calidad de datos** | Reglas por dimensión con semáforo, índice de salud, alertas críticas, frescura de los datos y detalle de los registros que fallan. |
+
+**Cómo está construido**
+
+- **Extracción:** consultas SQL sobre PostgreSQL (órdenes, ítems y envíos).
+- **Transformación:** limpieza y normalización con Power Query (por ejemplo, valores escritos de distinta forma) y una tabla de calendario que marca el mes en curso como parcial.
+- **Medidas DAX:** comisión, ticket promedio, tasas de cancelación y recompra, ciclo de entrega, entregas a tiempo y ventas por favorito.
+- **Calidad de datos:** 8 reglas agrupadas en completitud, consistencia, integridad, frescura y validez, con semáforo por dimensión.
+
+**Definiciones:** la comisión es el 10 % del valor de las ventas y el ticket promedio es el valor bruto de la orden. Los datos son simulados, así que los resultados no describen un negocio real.
+
+**Limitaciones y próximos pasos:** el ciclo de entrega se aproxima con la diferencia entre creación y última actualización, porque no se guarda el historial de estados. Quedan pendientes la reconciliación automática contra la base y la actualización programada de los datos.
+
+[![Video de demo](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/5DGVj7XVGLY)
+[![Tablero PDF](https://img.shields.io/badge/Tablero-PDF-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white)](docs/PowerBI/tablero.pdf)
+<!-- [![Video](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](LINK) -->
+
+<p align="center">
+  <img src="images/powerbi/resumen.png" alt="Página de resumen del tablero" width="80%">
+</p>
+
+<details>
+<summary><b>📸 Más páginas</b></summary>
+
+<br>
+
+<p align="center">
+  <img src="images/powerbi/logistica.png" alt="Logística y geografía" width="48%">
+  <img src="images/powerbi/productos.png" alt="Productos" width="48%">
+</p>
+<p align="center">
+  <img src="images/powerbi/calidad-datos.png" alt="Calidad de datos" width="48%">
+</p>
+
+</details>
+
+---
+
+### 3. App de gestión logística de cosecha
 
 Aplicación móvil que digitaliza el control de la cosecha desde la cabina de la maquinaria. Reemplaza las libretas de papel, calcula la productividad automáticamente y genera reportes para los dueños de los campos. Desarrollo individual a partir de los requerimientos de un contratista rural.
 
@@ -95,7 +146,7 @@ Aplicación móvil que digitaliza el control de la cosecha desde la cabina de la
 
 ---
 
-### 3. Packeteer, plataforma de logística colaborativa
+### 4. Packeteer, plataforma de logística colaborativa
 
 Plataforma que conecta a personas que necesitan enviar paquetes con conductores independientes. Proyecto de Arquitectura y Diseño de Sistemas (UNS), en equipo de 4 personas, con foco en el diseño y la documentación de la arquitectura.
 
@@ -141,6 +192,9 @@ Plataforma que conecta a personas que necesitan enviar paquetes con conductores 
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat-square)
+![Power Query](https://img.shields.io/badge/Power_Query-217346?style=flat-square)
 
 **Desarrollo Frontend y Mobile**
 
@@ -148,6 +202,11 @@ Plataforma que conecta a personas que necesitan enviar paquetes con conductores 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+
+**Calidad**
+
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 **Otros Lenguajes y Herramientas**
 
