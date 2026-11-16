@@ -91,7 +91,7 @@ Proyecto personal que arma el circuito completo del dato sobre el esquema del [m
 
 **Limitaciones y próximos pasos:** el ciclo de entrega se aproxima con la diferencia entre creación y última actualización, porque no se guarda el historial de estados. Quedan pendientes la reconciliación automática contra la base y la actualización programada de los datos.
 
-[![Video de demo](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/5DGVj7XVGLY)
+[![Video de demostracion](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/4d7MszpYDJQ)
 [![Tablero PDF](https://img.shields.io/badge/Tablero-PDF-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white)](docs/powerbi/tablero.pdf)
 <!-- [![Video](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](LINK) -->
 
