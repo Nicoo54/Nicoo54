@@ -37,8 +37,7 @@ Ecosistema de aplicaciones con arquitectura de microservicios, desarrollado en u
 
 [![Demo Analytics Dashboard](https://img.shields.io/badge/Demo-Analytics_Dashboard-2ea44f?style=flat-square&logo=vercel&logoColor=white)](https://perfume-libre-analytics.vercel.app/general)
 [![Demo Buyer App](https://img.shields.io/badge/Demo-Buyer_App-2ea44f?style=flat-square&logo=vercel&logoColor=white)](https://perfume-libre-buyer.vercel.app/)
-<!-- TODO: reemplazar link de Buyer App por el de producción (sin git-develop) y descomentar video cuando esté -->
-<!-- [![Video](https://img.shields.io/badge/Video-2_min-FF0000?style=flat-square&logo=youtube&logoColor=white)](LINK) -->
+[![Video de demostracion](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/PI0sDhCGfvQ)
 
 **Usuarios de prueba** (código de verificación: `424242`)
 
@@ -47,6 +46,30 @@ Ecosistema de aplicaciones con arquitectura de microservicios, desarrollado en u
 | Administrador | `admin+clerk_test@iaw.com` | `iawuser#` |
 | Comprador | `buyer+clerk_test@iaw.com` | `iawuser#` |
 
+<details>
+<summary><b>💳 Cómo probar un pago (Mercado Pago, modo sandbox)</b></summary>
+
+<br>
+
+Los pagos se procesan en el entorno de pruebas de Mercado Pago, así que **no se realizan cobros reales**. Para comprar con la cuenta de comprador, completar el formulario del Checkout Brick con estos datos de prueba:
+
+| Campo | Valor |
+|---|---|
+| Tarjeta de crédito | `5031 7557 3453 0604` |
+| Tarjeta de débito | `5287 3383 1025 3304` |
+| Vencimiento | `11/30` |
+| CVV | `123` |
+| DNI | `12345678` |
+| Email | `ejemplo@gmail.com` (no usar `test@testuser.com`, que el sistema suele rechazar) |
+
+El resultado del pago depende del **nombre del titular**:
+
+| Nombre del titular | Resultado |
+|---|---|
+| `APRO` | ✅ Pago aprobado |
+| `OTHE` o `CALL` | ❌ Pago rechazado |
+
+</details>
 
 <details>
 <summary><b>📸 Capturas</b></summary>
