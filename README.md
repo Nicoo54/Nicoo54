@@ -108,7 +108,7 @@ Proyecto personal que arma el circuito completo del dato sobre el esquema del [m
 - **Extracción:** consultas SQL sobre PostgreSQL (órdenes, ítems y envíos).
 - **Transformación:** limpieza y normalización con Power Query (por ejemplo, valores escritos de distinta forma) y una tabla de calendario que marca el mes en curso como parcial.
 - **Medidas DAX:** comisión, ticket promedio, tasas de cancelación y recompra, ciclo de entrega, entregas a tiempo y ventas por favorito.
-- **Calidad de datos:** 8 reglas agrupadas en completitud, consistencia, integridad, frescura y validez, con semáforo por dimensión.
+- **Calidad de datos:** 7 reglas agrupadas en completitud, consistencia, integridad, frescura y validez, con semáforo por dimensión.
 
 **Definiciones:** la comisión es el 10 % del valor de las ventas y el ticket promedio es el valor bruto de la orden. Los datos son simulados, así que los resultados no describen un negocio real.
 
@@ -116,7 +116,6 @@ Proyecto personal que arma el circuito completo del dato sobre el esquema del [m
 
 [![Video de demostracion](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/0OiJZW1TV0o)
 [![Tablero PDF](https://img.shields.io/badge/Tablero-PDF-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white)](docs/powerbi/tablero.pdf)
-<!-- [![Video](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](LINK) -->
 
 <p align="center">
   <img src="images/powerbi/resumen.png" alt="Página de resumen del tablero" width="80%">
