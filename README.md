@@ -30,14 +30,14 @@ Ecosistema de aplicaciones con arquitectura de microservicios, desarrollado en u
 | Componente | Descripción |
 |---|---|
 | **Buyer App** | Registro e inicio de sesión, catálogo, carrito, historial de compras, pagos con Mercado Pago (sandbox) y resumen automático de reseñas con IA. Incluye testing unitario, pruebas de API con Postman y pruebas E2E con Playwright. |
-| **Control Plane** | Desarrollo individual. Panel de superadministración: gestión de usuarios (suspender y reactivar cuentas), seguimiento de órdenes (estado de pago y envío), moderación de productos (suspender, reanudar, eliminar) y gestión de reportes. |
+| **Control Panel** | Desarrollo individual. Panel de superadministración: gestión de usuarios (suspender y reactivar cuentas), seguimiento de órdenes (estado de pago y envío), moderación de productos (suspender, reanudar, eliminar) y gestión de reportes. |
 | **Analytics Dashboard** | Desarrollo individual. Más de 25 indicadores y visualizaciones organizados en cinco áreas: ventas (ingresos, ticket promedio, tasa de conversión, órdenes canceladas), usuarios (nuevos, recurrentes, crecimiento), catálogo (publicaciones activas y pausadas, top productos), reseñas y calidad (calificaciones, reportes, vendedores en riesgo) y logística (tiempo de entrega, envíos), con filtros por rango de fechas. |
 
 **Enlaces**
 
 [![Demo Analytics Dashboard](https://img.shields.io/badge/Demo-Analytics_Dashboard-2ea44f?style=flat-square&logo=vercel&logoColor=white)](https://perfume-libre-analytics.vercel.app/general)
 [![Demo Buyer App](https://img.shields.io/badge/Demo-Buyer_App-2ea44f?style=flat-square&logo=vercel&logoColor=white)](https://perfume-libre-buyer.vercel.app/)
-[![Video de demostracion](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/PI0sDhCGfvQ)
+[![Video de demostracion](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/E-ezMTVwJBY)
 
 **Usuarios de prueba** (código de verificación: `424242`)
 
@@ -114,7 +114,7 @@ Proyecto personal que arma el circuito completo del dato sobre el esquema del [m
 
 **Limitaciones y próximos pasos:** el ciclo de entrega se aproxima con la diferencia entre creación y última actualización, porque no se guarda el historial de estados. Quedan pendientes la reconciliación automática contra la base y la actualización programada de los datos.
 
-[![Video de demostracion](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/0OiJZW1TV0o)
+[![Video de demostracion](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/BA_yRDopeBM)
 [![Tablero PDF](https://img.shields.io/badge/Tablero-PDF-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white)](docs/powerbi/tablero.pdf)
 
 <p align="center">
@@ -153,7 +153,7 @@ Aplicación móvil que digitaliza el control de la cosecha desde la cabina de la
 
 **Estado y evolución:** Prototipo funcional validado en entorno de prueba. El desafío técnico principal fue diseñar la persistencia *offline* sin pérdida ni duplicación de registros. El próximo paso es integrar una plataforma web para seguimiento en tiempo real.
 
-[![Video de demo](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/5DGVj7XVGLY)
+[![Video de demo](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtube.com/shorts/3HTBBDVdwcI)
 
 <details>
 <summary><b>📸 Captura del reporte generado</b></summary>
@@ -181,7 +181,7 @@ Plataforma que conecta a personas que necesitan enviar paquetes con conductores 
 **Decisiones clave:** Monolito en capas · *Polling* sobre HTTP en lugar de WebSockets para simplificar infraestructura · PostgreSQL sin capa de caché intermedia · Procesos *batch* automatizados con Vercel Cron.
 
 [![Documentación](https://img.shields.io/badge/Documentación-PDF-B31B1B?style=flat-square&logo=adobeacrobatreader&logoColor=white)](docs/Packeteer/Packeteer_Documentacion.pdf)
-[![Video de demo](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/csrbMWZOqJs)
+[![Video de demo](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XGFAZ-JIa4Q)
 
 <details>
 <summary><b>Diagrama</b></summary>
@@ -200,10 +200,10 @@ Plataforma que conecta a personas que necesitan enviar paquetes con conductores 
 
 | Proyecto | Descripción | Tecnologías | Enlaces |
 |---|---|---|---|
-| **Tracker de bíceps** | Equipo de 4. Seguimiento del brazo en video, cálculo del ángulo del codo y gráficos de las variables en función del tiempo. | Python · OpenCV · MediaPipe · NumPy | 🎥 [Demo](https://youtu.be/071jef2hbUc) 📄&nbsp;[Proyecto](docs/Tracker%20de%20b%C3%ADceps/Proyecto%20de%20fisica%20-%20Curl%20de%20biceps.pdf) |
+| **Tracker de bíceps** | Equipo de 4. Seguimiento del brazo en video, cálculo del ángulo del codo y gráficos de las variables en función del tiempo. | Python · OpenCV · MediaPipe · NumPy | 🎥 [Demo](https://youtu.be/6YeRl_z8iH8) 📄&nbsp;[Proyecto](docs/Tracker%20de%20b%C3%ADceps/Proyecto%20de%20fisica%20-%20Curl%20de%20biceps.pdf) |
 | **Gestión de un proyecto de software para una aerolínea** | *En curso.* Participé en la elaboración de la documentación de gestión como plan de riesgos, WBS, métricas de seguimiento y criterios de éxito, priorización de requerimientos y planificación en sprints. | Gestión de proyectos · UML · ProjectLibre | 📄&nbsp;[Documentación](docs/Aerol%C3%ADnea/documentacion.pdf) |
-| **Nonograma** | Desarrollo individual. La lógica de reglas corre en SWI-Prolog y la interfaz en React, comunicados mediante Pengines. | Prolog · React | 🎥&nbsp;[Demo](https://youtu.be/YBS6UOwpd2A) 📄&nbsp;[Informe](docs/Nonograma/Informe.pdf) |
-| **Clon de Candy Crush** | Equipo de 4. Diseño orientado a objetos aplicando patrones de diseño para la lógica del tablero, combinaciones y puntajes. | Java | 🎥&nbsp;[Demo](https://youtu.be/OViWHFBxXzg) |
+| **Nonograma** | Desarrollo individual. La lógica de reglas corre en SWI-Prolog y la interfaz en React, comunicados mediante Pengines. | Prolog · React | 🎥&nbsp;[Demo](https://youtu.be/6K3Ythll-lg) 📄&nbsp;[Informe](docs/Nonograma/Informe.pdf) |
+| **Clon de Candy Crush** | Equipo de 4. Diseño orientado a objetos aplicando patrones de diseño para la lógica del tablero, combinaciones y puntajes. | Java | 🎥&nbsp;[Demo](https://youtu.be/0E57nMYkHG4) |
 
 
 ---
