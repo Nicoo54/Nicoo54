@@ -2,7 +2,7 @@
 
 # Nicolás Bernardini
 
-**Estudiante de Ingeniería en Sistemas de Información · Universidad Nacional del Sur**
+**Estudiante avanzado de Ingeniería en Sistemas de Información · Universidad Nacional del Sur**
 
 Desarrollo aplicaciones web y móviles con foco en calidad, datos y en entender el problema que cada producto resuelve
 
@@ -15,7 +15,7 @@ Desarrollo aplicaciones web y móviles con foco en calidad, datos y en entender 
 
 ---
 
-> Proyectos académicos (UNS) y desarrollos reales.
+> Proyectos académicos (UNS) y personales.
 
 ## Proyectos destacados
 
