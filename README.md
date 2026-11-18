@@ -30,7 +30,7 @@ Ecosistema de aplicaciones con arquitectura de microservicios, desarrollado en u
 | Componente | Descripción |
 |---|---|
 | **Buyer App** | Registro e inicio de sesión, catálogo, carrito, historial de compras, pagos con Mercado Pago (sandbox) y resumen automático de reseñas con IA. Incluye testing unitario, pruebas de API con Postman y pruebas E2E con Playwright. |
-| **Control Panel** | Desarrollo individual. Panel de superadministración: gestión de usuarios (suspender y reactivar cuentas), seguimiento de órdenes (estado de pago y envío), moderación de productos (suspender, reanudar, eliminar) y gestión de reportes. |
+| **Control Plane** | Desarrollo individual. Panel de superadministración: gestión de usuarios (suspender y reactivar cuentas), seguimiento de órdenes (estado de pago y envío), moderación de productos (suspender, reanudar, eliminar) y gestión de reportes. |
 | **Analytics Dashboard** | Desarrollo individual. Más de 25 indicadores y visualizaciones organizados en cinco áreas: ventas (ingresos, ticket promedio, tasa de conversión, órdenes canceladas), usuarios (nuevos, recurrentes, crecimiento), catálogo (publicaciones activas y pausadas, top productos), reseñas y calidad (calificaciones, reportes, vendedores en riesgo) y logística (tiempo de entrega, envíos), con filtros por rango de fechas. |
 
 **Enlaces**
