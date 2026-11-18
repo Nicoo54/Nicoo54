@@ -161,7 +161,7 @@ Aplicación móvil que digitaliza el control de la cosecha desde la cabina de la
 <br>
 
 <p align="center">
-  <img src="images/Cosecha/chosecha-reporte-excel.png" alt="Resumen de cargas" width="60%">
+  <img src="images/Cosecha/cosecha-reporte-excel.png" alt="Resumen de cargas" width="60%">
 </p>
 
 </details>
@@ -184,7 +184,7 @@ Plataforma que conecta a personas que necesitan enviar paquetes con conductores 
 [![Video de demo](https://img.shields.io/badge/Video-Demo-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://youtu.be/XGFAZ-JIa4Q)
 
 <details>
-<summary><b>Diagrama</b></summary>
+<summary><b>📸 Diagrama</b></summary>
 
 <br>
 
